@@ -1,0 +1,7 @@
+
+Nombre archivo enviado: 100MiBFile.mp4
+Tamaño archivo: 113467616 Bytes
+Fecha: 2020-58-15 11:58:17
+Tiempo: 7.925795933 seg
+Envio false
+

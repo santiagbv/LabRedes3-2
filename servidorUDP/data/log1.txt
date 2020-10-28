@@ -1,0 +1,8 @@
+
+Cliente: /192.168.1.11
+Nombre archivo enviado: pruebaTexto.txt
+Tamaño archivo: 41 Bytes
+Fecha: 2020-12-27 03:12:27
+Tiempo: 0.0290767 seg
+Envio true
+

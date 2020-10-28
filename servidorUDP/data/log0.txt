@@ -1,0 +1,8 @@
+
+Cliente: /192.168.0.20
+Nombre archivo enviado: 100MiBFile.mp4
+Tamaño archivo: 126778441 Bytes
+Fecha: 2020-58-15 11:58:16
+Tiempo: 7.927449237 seg
+Envio false
+
