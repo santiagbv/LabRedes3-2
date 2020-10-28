@@ -32,7 +32,7 @@ public class UDPServer {
 	
 	public final static int MAX_NUMBER_CONNECTIONS = 25;
 	
-	public final static String[] PATHS = {"./data/pruebaTexto.txt", "./data/100MiBFile.mp4","./data/256MiBFile.dat", "./data/texto.txt"};
+	public final static String[] PATHS = {"../data/pruebaTexto.txt", "../data/100MiBFile.mp4","../data/256MiBFile.dat", "../data/texto.txt"};
 	
 	private int port;
 	
@@ -216,7 +216,7 @@ public class UDPServer {
 	
 	
 	public static void log(String nombreArchivo, boolean estado, double seconds, InetAddress ip) throws Exception {
-		File file = new File("./data/FileNumber.txt");
+		File file = new File("../data/FileNumber.txt");
 		if(!file.exists()) {
 			file.createNewFile();
 		}
@@ -229,7 +229,7 @@ public class UDPServer {
 		PrintWriter writer = new PrintWriter(file);
 		writer.print(""+n);
 		writer.close();
-		String logPath = "./data/log"+n+".txt";
+		String logPath = "../data/log"+n+".txt";
 		file = new File(logPath);
 		if(!file.exists()) {
 			file.createNewFile();
@@ -237,7 +237,7 @@ public class UDPServer {
 		writer = new PrintWriter(file);
 		Date date = Calendar.getInstance().getTime();  
         DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");  
-        file = new File("./data/"+nombreArchivo);
+        file = new File("../data/"+nombreArchivo);
 		writer.println("");
 		writer.println("Cliente: "+ip);
 		writer.println("Nombre archivo enviado: "+file.getName());
